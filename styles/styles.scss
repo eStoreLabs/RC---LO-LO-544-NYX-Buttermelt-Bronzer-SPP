@@ -40,6 +40,12 @@ $background-color_3: #000;
 			position: relative;
 			padding: 25px 30px 20px 30px;
 		}
+		.es-kv__left--img {
+			transition: all 0.3s;
+			&:hover {
+				transform: scale(1.05);
+			}
+		}
 		.es-kv__headline {
 			text-transform: uppercase;
 			text-align: center;
@@ -90,6 +96,10 @@ $background-color_3: #000;
 		}
 		.es-ingredience__single--img {
 			width: 180px;
+			transition: all 0.3s;
+			&:hover {
+				transform: scale(1.05);
+			}
 		}
 		.es-ingredience__single--text {
 			font-size: 14px;
@@ -190,6 +200,18 @@ $background-color_3: #000;
 			margin-top: 20px;
 			margin-bottom: 20px;
 			padding: 0 10px;
+		}
+		.es-compare__container {
+			position: relative;
+		}
+		.es-compare__img {
+			position: absolute;
+			bottom: 0;
+			transition: all 0.3s;
+			&:hover {
+				transform: scale(1.05);
+				padding-bottom: 11px;
+			}
 		}
 		.es-cross {
 			padding: 40px 16px;
