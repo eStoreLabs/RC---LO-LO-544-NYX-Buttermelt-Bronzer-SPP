@@ -81,9 +81,9 @@
 }
 #es-rc #es-rc-content .es-kv__right--photo {
   border: 0px solid transparent;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 10px;
+  border-top-left-radius: 17px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 12px;
 }
 
 @media (min-width: 576px) {
@@ -262,7 +262,7 @@
 #es-rc #es-rc-content .es-application__single--img {
   transition: all 0.3s;
   border: 1px solid transparent;
-  border-radius: 15px;
+  border-radius: 17px;
 }
 
 #es-rc #es-rc-content .es-application__single--img:hover {
