@@ -69,6 +69,12 @@ $background-color_3: #000;
 			max-width: 140px;
 			padding: 15px;
 		}
+		.es-kv__right--photo {
+			border: 0px solid transparent;
+			border-top-left-radius: 15px;
+			border-bottom-left-radius: 15px;
+			border-bottom-right-radius: 10px;
+		}
 		.es-ingredience {
 			font-weight: 800;
 			text-align: center;
@@ -136,6 +142,8 @@ $background-color_3: #000;
 		}
 		.es-application__single--img {
 			transition: all 0.3s;
+			border: 1px solid transparent;
+			border-radius: 15px;
 			&:hover {
 				transform: scale(1.02);
 			}
