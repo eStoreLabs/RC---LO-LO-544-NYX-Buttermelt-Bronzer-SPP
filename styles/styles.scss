@@ -2,7 +2,7 @@
 $color_2: #000;
 $font-family_1: "Montserrat", sans-serif;
 $font-family_2: "Dancing Script";
-$background-color_1: #F4849B;
+$background-color_1: #BE8D83;
 $background-color_2: #FFF;
 $background-color_3: #000;
 
@@ -119,10 +119,6 @@ $background-color_3: #000;
 			padding: 0 30px;
 		}
 		.es-application__title {
-			font-size: 20px;
-			text-align: center;
-		}
-		.es-application__title--big {
 			font-size: 30px;
 			text-align: center;
 			margin-top: 10px;
@@ -148,9 +144,14 @@ $background-color_3: #000;
 				transform: scale(1.02);
 			}
 		}
+		.es-application__single--text--desc {
+			display: block;
+			margin: 0 auto;
+		}
 		.es-application__single--text {
 			font-size: 14px;
 			margin-top: 20px;
+			text-transform: uppercase;
 		}
 		.es-application__single--text-small {
 			font-size: 14px;
@@ -158,6 +159,9 @@ $background-color_3: #000;
 			margin-top: 10px;
 		}
 		.es-application__video--container {
+			margin-top: 50px;
+		}
+		.es-application__container--title {
 			margin-top: 50px;
 		}
 		.es-application__video {
@@ -341,14 +345,15 @@ $background-color_3: #000;
 				width: 120px;
 			}
 			.es-application__title {
-				font-size: 23px;
-			}
-			.es-application__title--big {
 				font-size: 43px;
-				margin-left: 70px;
 			}
 			.es-application__container {
 				gap: 5px;
+			}
+			.es-application__single--text--desc {
+				height: 120px;
+				display: flex;
+				flex-flow: column;
 			}
 			.es-application__single {
 				max-width: 30%;
@@ -360,7 +365,7 @@ $background-color_3: #000;
 				position: relative;
 			}
 			.es-colors__single {
-				max-width: 150px;
+				max-width: 200px;
 			}
 			.es-compare {
 				padding-top: 50px;
@@ -466,6 +471,15 @@ $background-color_3: #000;
 		#es-rc-content {
 			.es-application__single {
 				max-width: 300px;
+			}
+		}
+	}
+}
+@media (min-width: 890px) {
+	#es-rc {
+		#es-rc-content {
+			.es-colors__container {
+				column-gap: 25px;
 			}
 		}
 	}

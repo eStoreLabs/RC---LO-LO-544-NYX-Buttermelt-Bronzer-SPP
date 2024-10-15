@@ -79,6 +79,7 @@
   max-width: 140px;
   padding: 15px;
 }
+
 #es-rc #es-rc-content .es-kv__right--photo {
   border: 0px solid transparent;
   border-top-left-radius: 17px;
@@ -202,7 +203,6 @@
   #es-rc #es-rc-content .es-ingredience__single--img {
     width: 120px;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -233,12 +233,8 @@
   padding: 0 30px;
 }
 
-#es-rc #es-rc-content .es-application__title {
-  font-size: 20px;
-  text-align: center;
-}
 
-#es-rc #es-rc-content .es-application__title--big {
+#es-rc #es-rc-content .es-application__title {
   font-size: 30px;
   text-align: center;
   margin-top: 10px;
@@ -269,9 +265,15 @@
   transform: scale(1.02);
 }
 
+#es-rc #es-rc-content .es-application__single--text--desc {
+  display: block;
+  margin: 0 auto;
+}
+
 #es-rc #es-rc-content .es-application__single--text {
   font-size: 14px;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 
 #es-rc #es-rc-content .es-application__single--text-small {
@@ -284,6 +286,10 @@
   margin-top: 50px;
 }
 
+#es-rc #es-rc-content .es-application__container--title {
+  margin-top: 50px;
+}
+
 #es-rc #es-rc-content .es-application__video {
   max-width: 100%;
   display: block;
@@ -291,18 +297,19 @@
 }
 
 @media (min-width: 576px) {
-  #es-rc #es-rc-content .es-application__title {
-    font-size: 23px;
-  }
 
-  #es-rc #es-rc-content .es-application__title--big {
+  #es-rc #es-rc-content .es-application__title {
     font-size: 43px;
-    margin-left: 70px;
   }
 
   #es-rc #es-rc-content .es-application__container {
     gap: 5px;
+  }
 
+  #es-rc #es-rc-content .es-application__single--text--desc {
+    height: 120px;
+    display: flex;
+    flex-flow: column;
   }
 
   #es-rc #es-rc-content .es-application__single {
@@ -321,7 +328,7 @@
 }
 
 #es-rc #es-rc-content .es-colors {
-  background-color: #F4849B;
+  background-color: #BE8D83;
   padding-block: 30px 50px;
 }
 
@@ -359,7 +366,13 @@
   }
 
   #es-rc #es-rc-content .es-colors__single {
-    max-width: 150px;
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 890px) {
+  #es-rc #es-rc-content .es-colors__container {
+    column-gap: 25px;
   }
 }
 
@@ -391,11 +404,11 @@
   bottom: 0;
   transition: all 0.3s;
 }
+
 #es-rc #es-rc-content .es-compare__img:hover {
   transform: scale(1.05);
   padding-bottom: 11px;
-} 
-
+}
 
 @media (min-width: 576px) {
   #es-rc #es-rc-content .es-compare {
@@ -414,7 +427,7 @@
 
 #es-rc #es-rc-content .es-cross {
   padding: 40px 16px;
-  background-color: #F4849B;
+  background-color: #BE8D83;
   text-transform: uppercase;
   font-weight: 900;
   text-align: center;
