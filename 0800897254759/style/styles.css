@@ -3,7 +3,7 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2;
-  max-width: 680px;
+  max-width: 731px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -338,6 +338,10 @@
 
   #es-rc #es-rc-content .es-colors__single {
     max-width: 160px;
+  }
+
+  #es-rc #es-rc-content .es-application__container {
+    align-items: flex-start;
   }
 }
 
